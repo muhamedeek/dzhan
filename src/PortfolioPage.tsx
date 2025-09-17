@@ -9,7 +9,7 @@ const Section: React.FC<React.PropsWithChildren<{ id?: string; className?: strin
   <section id={id} className={`relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 ${className || ""}`}>{children}</section>
 );
 
-const PROFILE_IMG = "https://iimg.su/i/AHH7MQ";
+const PROFILE_IMG = "https://s3.iimg.su/s/26/gAHH7MQxPysTtcNb6LVCv8ZnkwmBMCTtVEEJBuoY.png";
 
 // тарифные ступени
 const RATE_TIERS = [
