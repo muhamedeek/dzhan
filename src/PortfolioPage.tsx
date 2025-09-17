@@ -291,7 +291,7 @@ export default function PortfolioPage() {
           <motion.div initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="relative">
             <div className="absolute -inset-2 rounded-3xl bg-blue-500/20 blur-2xl" />
             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_40px_#1d4ed8]">
-              <img src={PROFILE_IMG} alt="Profile" className="h-[420px] w-full object-cover" />
+              <img src={PROFILE_IMG} alt="Profile" className="h-[420px] w-full object-top object-cover" />
             </div>
           </motion.div>
         </div>
