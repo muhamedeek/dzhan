@@ -250,9 +250,16 @@ export default function PortfolioPage() {
               {t.langName}
             </Button>
             <a href={waLink} target="_blank" rel="noreferrer">
-              <Button className="gap-2 bg-blue-600 hover:bg-blue-500 shadow-[0_0_25px_#2563eb] px-3 py-2 rounded-lg">
-                <Phone className="h-4 w-4 inline-block mr-1" /> WhatsApp
-              </Button>
+              <Button
+  className="
+    gap-2 bg-blue-600 hover:bg-blue-500 shadow-[0_0_25px_#2563eb]
+    px-2 py-1 text-sm rounded-md
+    sm:px-3 sm:py-2 sm:text-base sm:rounded-lg
+  "
+>
+  <Phone className="h-3 w-3 sm:h-4 sm:w-4 inline-block mr-1" /> WhatsApp
+</Button>
+
             </a>
           </div>
         </div>
